@@ -1,16 +1,18 @@
-Ingrese la altitud inicial del satélite (en kilómetros): 320Km
-Introduzca el coeficiente de arrastre inicial: 0.2
-Ingrese la altitud mínima segura (en kilómetros): 50Km
+Altitud_inicial: 500Km
+Coef_de_arrasre: 0.030
+Altitud_minima_de_seguridad: 80Km
 
-Calculamos la altitud perdidaa: 
-Altitud_perdida = coeficiente_arrastre * altitud_actual.
+Para descifrar la altura perdida:
 
-Restamos la pérdida de altitud a la altitud actual.
+Altitud_Inicial- Altitud actual =  500Km- 280Km
+altitud_perdida = coeficiente_arrastre * altitud_actual
+                =  0.030 * 220km
 
-Se aumenta el coeficiente de arrastre =  coeficiente_arrastre += 0.0001
+Orbita_1 : 220Km 
+Orbita_3 : 170Km 
 
-Órbita 1: Altitud actual = 320 km, Coeficiente de arrastre = 0.2
-Órbita 2: Altitud actual = 322,15 km, Coeficiente de arrastre = 0.3
-Órbita 20: Altitud actual = 250.500 km, Coeficiente de arrastre = 0.050
+Orbita_53 : 80,50Km 
 
-El satélite ha reingresado en la atmósfera terrestre después de 70 órbitas.
+Imprimir = ("El satelite ha ingresado a la atmosfera terrestre despues de 53 orbitas)
+
+
